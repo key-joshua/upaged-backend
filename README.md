@@ -8,10 +8,10 @@
 Task for creating server application with Node.js
 
 #### This is the Hosted link of the backend challenge
-https://https://upaged-backend.herokuapp.com
+https://upaged-backend.herokuapp.com
 
 #### This is the Hosted link of testing swagger documentation
-https://https://upaged-backend.herokuapp.com/api/documentation
+https://upaged-backend.herokuapp.com/api/documentation
 
 #### This is the Github repository link of the backend challenge 
 https://github.com/key-joshua/upaged-backend
@@ -35,7 +35,7 @@ Before we get started Remember to take  :coffee:   :pizza:  and :dancer:  When Y
 
 #### TABLE OF API ENDPOINTS SPECIFICATION AND DESCRIPTION
 
-- Versioning API using URL starts with https://https://upaged-backend.herokuapp.com/path  
+- Versioning API using URL starts with https://upaged-backend.herokuapp.com/path  
 
 
 |NO  | VERBS  | ENDPOINTS                            | STATUS  | ACCESS  | DESCRIPTION          |
@@ -57,7 +57,7 @@ Other tools and technologies used in development of this application are;
 
 ## GETTING TEST WITH PROJECT GLOBALLY
 
-- [API Swagger Documentation](https://https://upaged-backend.herokuapp.com/api/documentation)
+- [API Swagger Documentation](https://upaged-backend.herokuapp.com/api/documentation)
 
 ## GETTING TEST WITH PROJECT LOCALLY
 
