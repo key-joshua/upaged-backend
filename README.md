@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/1d78d8d35c44964eeeff/maintainability)](https://codeclimate.com/github/key-joshua/upaged-backend/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/feda80196af0676510c6/maintainability)](https://codeclimate.com/github/key-joshua/upaged-backend/maintainability)
 [![CircleCI](https://circleci.com/gh/key-joshua/upaged-backend/tree/main.svg?style=svg)](https://circleci.com/gh/key-joshua/upaged-backend/tree/main)
 [![Coverage Status](https://coveralls.io/repos/github/key-joshua/upaged-backend/badge.svg?branch=main)](https://coveralls.io/github/key-joshua/upaged-backend?branch=main)
 [![codecov](https://codecov.io/gh/key-joshua/upaged-backend/branch/main/graph/badge.svg?token=wSbmlMz2v9)](https://codecov.io/gh/key-joshua/upaged-backend)
