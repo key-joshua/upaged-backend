@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  uPaged-backend-container:
+    image: uPaged-backend-image
+    container_name: uPaged-backend-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
