@@ -1,0 +1,84 @@
+
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Assignment for creating a simple server application with Node.js.",
+    "version": "1.0.0",
+    "title": "uPaged Backend",
+    "termsOfService": "https://github.com/key-joshua/upaged-backend/README.md ",
+    "contact": { "email": "k.joshua855@gmail.com" }
+  },
+
+  "host": "https://upaged-backend.herokuapp.com",
+  "localhost": "localhost:3000",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "Initial Route",
+      "description": "Initial/Fake Endpoint | GET Route"
+    },
+    
+    {
+      "name": "Jobs Routes",
+      "description": "Job/s endpoitn | GET ROUTE"
+    }
+  ],
+  
+  "schemes": ["http","https"],
+  "consumes": ["application/json", "none"],
+  "produces": [ "application/json", "none"],
+  "paths": {
+
+    "/kslowpamf": {
+      "get": {
+        "tags": [ "Initial Route"],
+        "summary": " (Handle Intial/Fake GET Route)",
+        "description": "By the use of initial/fake GET endpoint, you will be able to see welcome message ( Welcome To uPaged Backend )",
+        "responses": { "200": { "description": "Success. ( Welcome To uPaged Backend )" }, "404": { "description": "Not Found." }}
+      }
+    },
+
+    "/jobs/select-jobs?page={page}&limit={limit}": {
+      "get": {
+        "tags": [ "Jobs Routes"],
+        "summary": " (Select Jobs GET Route)",
+        "description": "By the use of this GET endpoint, you can select jobs from our database",
+        "responses": { "200": { "description": "Ok." }, "404": { "description": "Not Found." }},
+        "parameters": [
+          {
+            "in": "path",
+            "name": "page",
+            "type": "integer",
+            "description": "parsing a page number"
+          },
+          {
+            "in": "path",
+            "name": "limit",
+            "type": "integer",
+            "description": "parsing a limit of data per page"
+          }
+        ]
+      }
+    }
+  },
+
+  "definitions": {
+    "jobSchema": {
+      "type": "object",
+      "properties": {
+        "shift":  { "type": "string", "required": true },
+        "workingHours":  { "type": "string", "required": true },
+        "position":  { "type": "string", "required": true },
+        "salary":  { "type": "string", "required": true },
+        "company":  { "type": "string", "required": true },
+        "review":  { "type": "string", "required": true },
+        "street":  { "type": "string", "required": true },
+        "address":  { "type": "string", "required": true },
+        "createdAt":  { "type": "string", "format": "date-time", "example": "2022-01-01",  "required": true },
+        "updatedAt":  { "type": "string", "format": "date-time", "example": "2022-01-01",  "required": true }
+      }
+    }
+  }
+}
+
+     
